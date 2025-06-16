@@ -1,4 +1,4 @@
-Configuration de base
+☑️ Créer 5 VLANS
 
 Sur tous les switchs
 ```bash
@@ -19,6 +19,7 @@ exit
 exit
 write memory
 ```
+☑️ Configurer les ports.
 Je conf les différents ports des différents switchs. Certains seront en trunk car plusieurs vlan à faire passer et d'autres en accès, typiquement les switchs d'accès.
 
 S0
