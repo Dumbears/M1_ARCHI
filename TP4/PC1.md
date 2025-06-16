@@ -1,3 +1,4 @@
+```bash
 C:\>ipconfig /all
 
 FastEthernet0 Connection:(default port)
@@ -15,3 +16,4 @@ FastEthernet0 Connection:(default port)
    DHCPv6 Client DUID..............: 00-01-00-01-64-3D-D1-B3-00-D0-FF-D4-6B-38
    DNS Servers.....................: ::
                                      0.0.0.0
+```
