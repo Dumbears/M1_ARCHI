@@ -1,3 +1,4 @@
+Configuration des Routeurs  
 Sur R1
 ```bash
 interface gigabitEthernet0/0
@@ -93,4 +94,25 @@ GigabitEthernet0/1         [up/up]
 GigabitEthernet0/2         [up/up]
     FE80::3
     FDA3:92DC:1963:13::1
+```
+Configurations des PCs  
+PC0 (LAN1)
+```bash
+ipv6 address fda3:92dc:1963:1::10/64
+ipv6 gateway fda3:92dc:1963:1::1
+```
+PC1 (LAN1)
+```bash
+ipv6 address fda3:92dc:1963:1::11/64
+ipv6 gateway fda3:92dc:1963:1::1
+```
+PC2 (LAN2)
+```bash
+ipv6 address fda3:92dc:1963:3::10/64
+ipv6 gateway fda3:92dc:1963:3::1
+```
+PC3 (LAN2)
+```bash
+ipv6 address fda3:92dc:1963:3::11/64
+ipv6 gateway fda3:92dc:1963:3::1
 ```
