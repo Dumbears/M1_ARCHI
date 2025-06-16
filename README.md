@@ -1,6 +1,6 @@
 Vous trouverez les livrables attendus aux liens suivants :  
 [Plan d'adressage IP + justification du choix](./plan_adressage_IP.md)  
-[Schéma nouvelle infrastructure]()  
+[Schéma nouvelle infrastructure](./images/schema_infra.png)  
 [Configuration VLANs](./Implementation_des_VLANs.md)  
 [Configuration MST]()  
 [Configuration ACLs + justification du choix](./Configuration_des_ACLs.md)  
