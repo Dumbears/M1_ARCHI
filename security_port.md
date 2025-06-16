@@ -5,7 +5,7 @@ Cela à pour effet de enregistrer la dernière adresse mac connectée, On autori
 ```bash
 enable
 configure terminal
-interface range FastEthernet0/1 - 48
+interface range FastEthernet0/3 - 24
  switchport port-security
  switchport port-security maximum 1
  switchport port-security violation shutdown
