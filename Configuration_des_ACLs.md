@@ -1,3 +1,4 @@
+Ci-dessous la configuration des ACLs, l'idée est d'appliquer le moindre privilège. J'ai autorisé que ce qui a été demandé dans le TP, le reste est deny.
 S0
 ```bash
 enable
@@ -71,7 +72,7 @@ show spanning-tree mst configuration
 show spanning-tree mst
 
 
-Ci-dessous la configuration des ACLs, l'idée est d'appliquer le moindre privilège. J'ai autorisé que ce qui a été demandé dans le TP, le reste est deny.
+
 S0
 
 ```bash
