@@ -1,4 +1,3 @@
-configuration_MST
 S0
 ```bash
 enable
