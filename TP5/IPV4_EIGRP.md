@@ -248,3 +248,15 @@ Ping statistics for 192.168.20.10:
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 0ms, Average = 0ms
 ```
+
+# Observer le comportement d’EIGRP lors d’une panne de lien
+Quand je coupe un lien EIGRP n'arrive pas à trouver un autre chemin, je pense que c'est dû aux routes qui ne se déclarent pas.  
+Exemple entre PC3 et PC2 avec une coupure entre R2 et R4. Il doit pouvoir passer par R3 mais R3 à cette conf.  
+Vu qu'il ne connait pas tout, il ne peut pas trouver un chemin..  
+```bash
+R3#show ip eigrp neighbors
+IP-EIGRP neighbors for process 100
+H   Address         Interface      Hold Uptime    SRTT   RTO   Q   Seq
+                                   (sec)          (ms)        Cnt  Num
+0   10.0.0.26       Gig1/0         14   00:27:45  40     1000  0   36
+```
