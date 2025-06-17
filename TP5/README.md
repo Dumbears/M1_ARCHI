@@ -10,4 +10,4 @@ Résultat des tests de connectivité (ping lan-to-lan)
 - [IPV6](./IPV6_test.md)
 - [IPV4](./IPV4_test.md)  
 
-[Comparaison des comportements observés entre RIPng et EIGRP]
+[Comparaison des comportements observés entre RIPng et EIGRP](./comparatif.md)
