@@ -1,3 +1,4 @@
+```bash
 R4#show ipv6 route
 IPv6 Routing Table - 13 entries
 Codes: C - Connected, L - Local, S - Static, R - RIP, B - BGP
@@ -21,3 +22,4 @@ R   2001:DB8:13::/64 [120/2]
 C   2001:DB8:24::/64 [0/0]
      via GigabitEthernet0/1, directly connected
 L   2001:DB8:24::4/128 [0/0]
+```
